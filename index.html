@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <title>Rangs||Home</title>
 </head>
-<body>
+<body >
   
   <section class="home-section">
     <h2 class="title">Discover<br>The New Future</h2>
@@ -16,28 +16,65 @@
   </section>
   
   
+  <!-- <section id="section-two" class="slider-section">
+    
+    <div class="box slide"><span>Life Style</span></div>
+    <div class="box slide"><span>Food and Beaverage</span></div>
+    <div class="box slide"><span>Pharmacuticals</span></div>
+    <div class="box slide"><span>Other Industries</span></div>
+    <div class="box slide"><span>Automative</span></div>
+    
+    <div id="Dots"></div>
+    
+  </section> -->
+  
+  
   <section id="section-two" class="slider-section">
     
-      <div class="box slide"><span>Life Style</span></div>
-      <div class="box slide"><span>Food and Beaverage</span></div>
-      <div class="box slide"><span>Pharmacuticals</span></div>
-      <div class="box slide"><span>Other Industries</span></div>
-      <div class="box slide"><span>Automative</span></div>
-
-      <div id="Dots"></div>
-
+    <div class="content content--fixed">
+      
+      <nav class="pagination">
+        <span class="pagination__item"></span>
+        <span class="pagination__item"></span>
+        <span class="pagination__item"></span>
+        <span class="pagination__item"></span>
+        <span class="pagination__item"></span>
+      </nav>
+    </div>
+    <div class="slides">
+      <div class="slide slide--current">
+        <div class="slide__img" style="background-image: url(img/food.jpg);"></div>
+      </div>
+      <div class="slide">
+        <div class="slide__img" style="background-image: url(img/img1.jpg);"></div>
+      </div>
+      <div class="slide">
+        <div class="slide__img" style="background-image: url(img/img2.jpg);"></div>
+      </div>
+      <div class="slide">
+        <div class="slide__img" style="background-image: url(img/others.jpg);"></div>
+      </div>
+      <div class="slide">
+        <div class="slide__img" style="background-image: url(img/pherm.jpg);"></div>
+      </div>
+    </div>
+    
+    <!-- <div id="Dots"></div> -->
+    
   </section>
-
+  
   <div id="topbtn" onclick="goTop()">&#8593;</div>
   
   
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script> -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script> -->
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/anime.min.js"></script>
   <script src="main.js"></script>
   <script>
     
-    var disc_btn = document.getElementById('disc_btn');
-          
-        </script>
-      </body>
-      </html>
+    // var disc_btn = document.getElementById('disc_btn');
+    
+  </script>
+</body>
+</html>
